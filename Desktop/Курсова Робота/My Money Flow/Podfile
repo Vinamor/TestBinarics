@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'My Money Flow' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for My Money Flow
+    pod 'PayPal-iOS-SDK'
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'Google/SignIn'
+    pod 'SnapKit', '~> 3.2'
+    pod 'Alamofire'
+    pod 'ObjectMapper', '~> 2.2.1’
+
+end
